@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="leftCell" rowHeight="92" id="CH9-X9-1VX" customClass="QYLeftMessageCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="92"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="CH9-X9-1VX" id="moN-hw-qDj">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="91.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qkb-ly-LnO">
+                        <rect key="frame" x="55" y="10" width="200" height="71.5"/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="x1d-a4-JMe"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="小心" translatesAutoresizingMaskIntoConstraints="NO" id="HJ1-9f-usd">
+                        <rect key="frame" x="10" y="41.5" width="40" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="0bi-Gv-Syi"/>
+                            <constraint firstAttribute="height" constant="40" id="qXc-EQ-3Ir"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="HJ1-9f-usd" secondAttribute="bottom" constant="10" id="ApE-dz-MRw"/>
+                    <constraint firstItem="Qkb-ly-LnO" firstAttribute="top" secondItem="moN-hw-qDj" secondAttribute="top" constant="10" id="Ljz-wj-rPm"/>
+                    <constraint firstItem="HJ1-9f-usd" firstAttribute="leading" secondItem="moN-hw-qDj" secondAttribute="leading" constant="10" id="V1B-r2-Axx"/>
+                    <constraint firstItem="Qkb-ly-LnO" firstAttribute="leading" secondItem="HJ1-9f-usd" secondAttribute="trailing" constant="5" id="vWm-uD-yEh"/>
+                    <constraint firstItem="Qkb-ly-LnO" firstAttribute="bottom" secondItem="HJ1-9f-usd" secondAttribute="bottom" id="wB9-OZ-4pY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="iconView" destination="HJ1-9f-usd" id="EfK-dd-XNn"/>
+                <outlet property="messageLab" destination="Qkb-ly-LnO" id="9fx-W9-g7o"/>
+            </connections>
+            <point key="canvasLocation" x="249" y="161"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="小心" width="200" height="200"/>
+    </resources>
+</document>

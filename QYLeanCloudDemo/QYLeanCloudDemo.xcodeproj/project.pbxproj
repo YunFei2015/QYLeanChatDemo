@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		667672E2BBB7EBC54E68B32E /* libPods-QYLeanCloudDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 42AF9E96E96965561787B3B2 /* libPods-QYLeanCloudDemo.a */; };
+		7C712A581CACC5990034866B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C712A571CACC5990034866B /* main.m */; };
+		7C712A5B1CACC5990034866B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C712A5A1CACC5990034866B /* AppDelegate.m */; };
+		7C712A611CACC5990034866B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C712A5F1CACC5990034866B /* Main.storyboard */; };
+		7C712A631CACC5990034866B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C712A621CACC5990034866B /* Assets.xcassets */; };
+		7C712A661CACC5990034866B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C712A641CACC5990034866B /* LaunchScreen.storyboard */; };
+		7C712A6F1CACC5B60034866B /* QYLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C712A6E1CACC5B60034866B /* QYLoginViewController.m */; };
+		7C712A721CACC99C0034866B /* QYChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C712A711CACC99C0034866B /* QYChatViewController.m */; };
+		7C712A781CACCC020034866B /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C712A771CACCC020034866B /* UIView+Extension.m */; };
+		7C712A7D1CACD7BB0034866B /* QYMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C712A7C1CACD7BB0034866B /* QYMessageCell.m */; };
+		7C712A861CAD04750034866B /* QYLeftMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C712A851CAD04750034866B /* QYLeftMessageCell.xib */; };
+		7C712A881CAD047F0034866B /* QYRightMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C712A871CAD047F0034866B /* QYRightMessageCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		42AF9E96E96965561787B3B2 /* libPods-QYLeanCloudDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QYLeanCloudDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C712A531CACC5990034866B /* QYLeanCloudDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYLeanCloudDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C712A571CACC5990034866B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C712A591CACC5990034866B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7C712A5A1CACC5990034866B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7C712A601CACC5990034866B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7C712A621CACC5990034866B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C712A651CACC5990034866B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7C712A671CACC5990034866B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C712A6D1CACC5B60034866B /* QYLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYLoginViewController.h; sourceTree = "<group>"; };
+		7C712A6E1CACC5B60034866B /* QYLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYLoginViewController.m; sourceTree = "<group>"; };
+		7C712A701CACC99C0034866B /* QYChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYChatViewController.h; sourceTree = "<group>"; };
+		7C712A711CACC99C0034866B /* QYChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYChatViewController.m; sourceTree = "<group>"; };
+		7C712A771CACCC020034866B /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		7C712A791CACCC0A0034866B /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		7C712A7B1CACD7BB0034866B /* QYMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYMessageCell.h; sourceTree = "<group>"; };
+		7C712A7C1CACD7BB0034866B /* QYMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYMessageCell.m; sourceTree = "<group>"; };
+		7C712A841CACFEFC0034866B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7C712A851CAD04750034866B /* QYLeftMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYLeftMessageCell.xib; sourceTree = "<group>"; };
+		7C712A871CAD047F0034866B /* QYRightMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QYRightMessageCell.xib; sourceTree = "<group>"; };
+		BD8042C770270EF1F272FCCD /* Pods-QYLeanCloudDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYLeanCloudDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QYLeanCloudDemo/Pods-QYLeanCloudDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E65C36E98D0F26B9075929C4 /* Pods-QYLeanCloudDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYLeanCloudDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QYLeanCloudDemo/Pods-QYLeanCloudDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C712A501CACC5990034866B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				667672E2BBB7EBC54E68B32E /* libPods-QYLeanCloudDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		506298ED32539C3FF85A20E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42AF9E96E96965561787B3B2 /* libPods-QYLeanCloudDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C712A4A1CACC5990034866B = {
+			isa = PBXGroup;
+			children = (
+				7C712A551CACC5990034866B /* QYLeanCloudDemo */,
+				7C712A541CACC5990034866B /* Products */,
+				9E5360084B2450AF305F4837 /* Pods */,
+				506298ED32539C3FF85A20E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7C712A541CACC5990034866B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C712A531CACC5990034866B /* QYLeanCloudDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C712A551CACC5990034866B /* QYLeanCloudDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7C712A751CACCBE10034866B /* Models */,
+				7C712A741CACCBD90034866B /* Views */,
+				7C712A731CACCBD10034866B /* Controllers */,
+				7C712A761CACCBE90034866B /* Utilities */,
+				7C712A7A1CACCC330034866B /* Others */,
+				7C712A561CACC5990034866B /* Supporting Files */,
+			);
+			path = QYLeanCloudDemo;
+			sourceTree = "<group>";
+		};
+		7C712A561CACC5990034866B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C712A571CACC5990034866B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7C712A731CACCBD10034866B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7C712A6D1CACC5B60034866B /* QYLoginViewController.h */,
+				7C712A6E1CACC5B60034866B /* QYLoginViewController.m */,
+				7C712A701CACC99C0034866B /* QYChatViewController.h */,
+				7C712A711CACC99C0034866B /* QYChatViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		7C712A741CACCBD90034866B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7C712A5F1CACC5990034866B /* Main.storyboard */,
+				7C712A7B1CACD7BB0034866B /* QYMessageCell.h */,
+				7C712A7C1CACD7BB0034866B /* QYMessageCell.m */,
+				7C712A851CAD04750034866B /* QYLeftMessageCell.xib */,
+				7C712A871CAD047F0034866B /* QYRightMessageCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7C712A751CACCBE10034866B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		7C712A761CACCBE90034866B /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7C712A791CACCC0A0034866B /* UIView+Extension.h */,
+				7C712A771CACCC020034866B /* UIView+Extension.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		7C712A7A1CACCC330034866B /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				7C712A591CACC5990034866B /* AppDelegate.h */,
+				7C712A5A1CACC5990034866B /* AppDelegate.m */,
+				7C712A621CACC5990034866B /* Assets.xcassets */,
+				7C712A641CACC5990034866B /* LaunchScreen.storyboard */,
+				7C712A671CACC5990034866B /* Info.plist */,
+				7C712A841CACFEFC0034866B /* PrefixHeader.pch */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		9E5360084B2450AF305F4837 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD8042C770270EF1F272FCCD /* Pods-QYLeanCloudDemo.debug.xcconfig */,
+				E65C36E98D0F26B9075929C4 /* Pods-QYLeanCloudDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C712A521CACC5990034866B /* QYLeanCloudDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C712A6A1CACC5990034866B /* Build configuration list for PBXNativeTarget "QYLeanCloudDemo" */;
+			buildPhases = (
+				F614116B6BEFB7A887FF225C /* Check Pods Manifest.lock */,
+				7C712A4F1CACC5990034866B /* Sources */,
+				7C712A501CACC5990034866B /* Frameworks */,
+				7C712A511CACC5990034866B /* Resources */,
+				E12A70B2557B440BE270B096 /* Embed Pods Frameworks */,
+				EB98ED43504F8D753395ED1F /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QYLeanCloudDemo;
+			productName = QYLeanCloudDemo;
+			productReference = 7C712A531CACC5990034866B /* QYLeanCloudDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C712A4B1CACC5990034866B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "云菲";
+				TargetAttributes = {
+					7C712A521CACC5990034866B = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 843QHT5Q54;
+					};
+				};
+			};
+			buildConfigurationList = 7C712A4E1CACC5990034866B /* Build configuration list for PBXProject "QYLeanCloudDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7C712A4A1CACC5990034866B;
+			productRefGroup = 7C712A541CACC5990034866B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C712A521CACC5990034866B /* QYLeanCloudDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C712A511CACC5990034866B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C712A861CAD04750034866B /* QYLeftMessageCell.xib in Resources */,
+				7C712A661CACC5990034866B /* LaunchScreen.storyboard in Resources */,
+				7C712A631CACC5990034866B /* Assets.xcassets in Resources */,
+				7C712A611CACC5990034866B /* Main.storyboard in Resources */,
+				7C712A881CAD047F0034866B /* QYRightMessageCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E12A70B2557B440BE270B096 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QYLeanCloudDemo/Pods-QYLeanCloudDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB98ED43504F8D753395ED1F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QYLeanCloudDemo/Pods-QYLeanCloudDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F614116B6BEFB7A887FF225C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C712A4F1CACC5990034866B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C712A781CACCC020034866B /* UIView+Extension.m in Sources */,
+				7C712A6F1CACC5B60034866B /* QYLoginViewController.m in Sources */,
+				7C712A5B1CACC5990034866B /* AppDelegate.m in Sources */,
+				7C712A7D1CACD7BB0034866B /* QYMessageCell.m in Sources */,
+				7C712A721CACC99C0034866B /* QYChatViewController.m in Sources */,
+				7C712A581CACC5990034866B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C712A5F1CACC5990034866B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C712A601CACC5990034866B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7C712A641CACC5990034866B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C712A651CACC5990034866B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C712A681CACC5990034866B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7C712A691CACC5990034866B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C712A6B1CACC5990034866B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD8042C770270EF1F272FCCD /* Pods-QYLeanCloudDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QYLeanCloudDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = QYLeanCloudDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hnqingyun.QYLeanCloudDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7C712A6C1CACC5990034866B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65C36E98D0F26B9075929C4 /* Pods-QYLeanCloudDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = QYLeanCloudDemo/PrefixHeader.pch;
+				INFOPLIST_FILE = QYLeanCloudDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hnqingyun.QYLeanCloudDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C712A4E1CACC5990034866B /* Build configuration list for PBXProject "QYLeanCloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C712A681CACC5990034866B /* Debug */,
+				7C712A691CACC5990034866B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C712A6A1CACC5990034866B /* Build configuration list for PBXNativeTarget "QYLeanCloudDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C712A6B1CACC5990034866B /* Debug */,
+				7C712A6C1CACC5990034866B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C712A4B1CACC5990034866B /* Project object */;
+}
